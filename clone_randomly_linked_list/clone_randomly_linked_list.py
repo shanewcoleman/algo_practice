@@ -80,14 +80,10 @@ copy = copyRandomList(head)
 print("Original list")
 while head:
     print(vars(head))
-    if head.random:
-       print(head.next.data)
     head = head.next
 
 print("Copied list")    
 while copy:
     print(vars(copy))
-   # if copy.random:
-    #    print(copy.random.data)
     copy = copy.next
 
